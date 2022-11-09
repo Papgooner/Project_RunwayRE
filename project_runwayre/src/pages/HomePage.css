@@ -17,42 +17,37 @@
 .runwayIndividual {
     background-color: rgb(41, 40, 40);
     position:absolute;
-    border:2px solid;
     margin: 1%;
-    padding:5px;
+    padding:1px;
     color:white;
-    width: 47.5%;
+    width: 48.5%;
     font-size: 2.5vw;
-    height: 45.5%;
+    height: 47%;
+    border-radius: 10px;
 }
 
 #runwayDiv {
     position:relative;
-    border:3px solid blue;
     height: 94%;
     padding:0;
 }
 
 #runwayOne {
-    border-color:green;
     top:0;
     left:0; 
 }
 
 #runwayTwo {
-    border-color:red;
     top:0;
     right:0;
 }
 
 #runwayThree {
-    border-color:yellow;
     bottom:0;
     left:0;
 }
 
 #runwayFour {
-    border-color:pink;
     bottom:0;
     right:0;
 }
